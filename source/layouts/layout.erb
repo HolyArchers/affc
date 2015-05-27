@@ -7,18 +7,21 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="description" content="The mission of Abundant Faith Fellowship Church is to spread the Gospel of Christ to the unsaved, maintain the worship of God, and inspire in all persons a love for Christ, a passion for righteousness, and a consciousness of their duties to God and their fellow man.">
     <meta name="keywords" content="Church, Faith, Fellowship, Abundant Faith Fellowship Church">
-    <link rel="shortcut icon" href="/images/affc.png"/>
+    <link rel="shortcut icon" href="/images/affc-text.png"/>
     <title><%= current_page.data.title || "Abundant Faith Fellowship Church" %></title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
   </head>
+
   <body class="<%= page_classes %> container">
     <%=partial "layouts/navbar"%>
-
     <%= yield %>
     <%=partial "layouts/map"%>
   </body>
