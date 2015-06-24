@@ -5,6 +5,9 @@ body{padding-top:70px;}
 h1, h2, h3, h4, h5, h6, p, a{
   font-family: 'Droid Serif', serif;
 }
+p{
+  font-size: 1.2em;
+}
 
 img{
   display:block;
@@ -18,4 +21,18 @@ img{
 
 .carousel-control.left, .carousel-control.right {
     background-image: none
+}
+
+.smaller-logo{
+  img{
+    width: 50%;
+  }
+}
+.padding-bottom{
+  padding-bottom: 70px;
+}
+.port{
+  img{
+    width: 50%;
+  }
 }
