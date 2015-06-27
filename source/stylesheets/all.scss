@@ -8,7 +8,9 @@ h1, h2, h3, h4, h5, h6, p, a{
 p{
   font-size: 1.2em;
 }
-
+.navbar-default{
+  padding-bottom: 0;
+}
 img{
   display:block;
   margin-left: auto;
@@ -16,11 +18,17 @@ img{
   }
 
 #map {
-  height: 250px;
+  height: 272px;
   }
 
 .carousel-control.left, .carousel-control.right {
     background-image: none
+}
+a{
+  color:#777777;
+}
+a.hover{
+  color:#333;
 }
 
 .smaller-logo{

@@ -20,10 +20,13 @@
     <%= javascript_include_tag  "all" %>
   </head>
 
-  <body class="<%= page_classes %> container">
-    <%=partial "layouts/navbar"%>
-    <%= yield %>
-    <%=partial "layouts/map"%>
+  <body class="<%= page_classes %> container-fluid">
+    <div class="container">
+      <%=partial "layouts/navbar"%>
+      <%= yield %>
+      <%=partial "layouts/map"%>
+    </div>
+    <%=partial "layouts/footer"%>
   </body>
 
 </html>
