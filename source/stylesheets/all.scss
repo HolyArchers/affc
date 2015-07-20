@@ -1,7 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif);
 
 body{padding-top:70px;}
-
+.container-fluid{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
 h1, h2, h3, h4, h5, h6, p, a{
   font-family: 'Droid Serif', serif;
 }
@@ -43,5 +50,19 @@ a.hover{
 .port{
   img{
     width: 50%;
+  }
+}
+.purple-section{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #65318F;
+  background-size: cover;
+
+  h2,h3,h4,h5,h6,p{
+    color: white;
+  }
+  h1{
+    color: white;
+    font-size: 4em;
   }
 }
