@@ -1,3 +1,7 @@
+<% require 'net/http' %>
+<% url = 'http://onestreamapp.herokuapp.com/api/v1/getCarouselImages?api_key=9bc7841e93975265f5a284ede3ab8f' %>
+<% res = Net::HTTP.get_response(URI.parse(url.to_s)) %>
+<%= puts res.code %>
 ---
 title: Abundant Faith Fellowship Church
 ---
@@ -8,6 +12,7 @@ title: Abundant Faith Fellowship Church
   </div>
 </div>
 
+<%= ('') %>
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
   <ol class="carousel-indicators">
@@ -32,7 +37,7 @@ title: Abundant Faith Fellowship Church
       </div>
     </div>
   </div>
-  
+
   <!-- Controls -->
   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
