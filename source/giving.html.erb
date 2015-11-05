@@ -1,9 +1,33 @@
----
-title: Giving
----
 <div class="container">
-  <h1 class="text-center">Giving</h1>
-  <h3>Tithe and Offerings</h3>
-  <p>Abundant Faith Fellowship Church thanks you in advance for making the decision to give to our missions to help spread God's word.  Your generous gift is used dollar per dollar to further our work. You can make your gift online using the donation button below.</p>
-  <p>For more information, please feel free to contact us.</p>
+  <div class="row">
+    <h1 class="text-center">Giving</h1>
+    <h3>Tithe and Offerings</h3>
+    <p>Abundant Faith Fellowship Church thanks you in advance for making the decision to give to our missions to help spread God's word.  Your generous gift is used dollar per dollar to further our work.</p>
+  </div>
+  <div class="row mt3" align="center">
+    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="7GPLFZHNNPSQL">
+      <table>
+        <tr>
+          <td>
+            <input type="hidden" name="on0" value="Gifts"><p class="text-center">Gifts<p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <select name="os0">
+  	          <option value="Small Gift">Small Gift $20.00 USD</option>
+  	          <option value="Medium Gift">Medium Gift $50.00 USD</option>
+  	          <option value="Large Gift">Large Gift $100.00 USD</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+      <input type="hidden" name="currency_code" value="USD">
+      <br/>
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+  </div>
 </div>
